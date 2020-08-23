@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="curso1_alura.TestDrive.Views.AgendamentoPage" Title="{Binding Veiculo.Nome}">
+
+    <StackLayout Padding="10, 25">
+        <ActivityIndicator IsVisible="{Binding Ocupado}" VerticalOptions="CenterAndExpand" IsRunning="{Binding Ocupado}"/>
+        
+        <TableView IsVisible="{Binding Desocupado}">
+            <TableRoot>
+                <TableSection Title="Seus Dados">
+                    <EntryCell Placeholder="Nome" Keyboard="Text" Text="{Binding Nome}"/>
+                    <EntryCell Placeholder="Telefone" Keyboard="Telephone" Text="{Binding Telefone}"/>
+                    <EntryCell Placeholder="E-mail" Keyboard="Email" Text="{Binding Email}"/>
+                </TableSection>
+                <TableSection Title="Agendamento">
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal" >
+                            <Label Text="Data:" Padding="12" FontSize="16"/>
+                            <DatePicker Date="{Binding DataAgendamento}" MinimumDate="01/01/2020" MaximumDate="12/31/2022"/>
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal" >
+                            <Label Text="Hora:" Padding="12" FontSize="16"/>
+                            <TimePicker Time="{Binding HoraAgendamento}" />
+                        </StackLayout>
+                    </ViewCell>
+                </TableSection>
+            </TableRoot>
+        </TableView>
+        
+        <Button IsVisible="{Binding Desocupado}" VerticalOptions="End" Text="Enviar" Command="{Binding SolicitarEnvioAgendamentoComando}"/>
+    </StackLayout>
+</ContentPage>

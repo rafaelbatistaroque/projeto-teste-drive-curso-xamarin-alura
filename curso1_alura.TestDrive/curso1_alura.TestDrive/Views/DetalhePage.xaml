@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="curso1_alura.TestDrive.Views.DetalhePage" Title="{Binding Veiculo.Nome}">
+
+    <StackLayout Padding="25">
+        <TableView Intent="Settings">
+            <TableRoot>
+                <TableSection Title="Acessórios">
+                    <SwitchCell Text="{Binding TextoFreioAbs}" On="{Binding TemABS, Mode=TwoWay}" />
+                    <SwitchCell Text="{Binding TextoArCondicionado}" On="{Binding TemAR, Mode=TwoWay}"/>
+                    <SwitchCell Text="{Binding TextoAirBag}" On="{Binding TemAirBag, Mode=TwoWay}"/>
+                    <TextCell Text="{Binding ValorAcessoriosSomados}" />
+                </TableSection>
+            </TableRoot>
+        </TableView>
+
+        <Button x:Name="btnProximo" VerticalOptions="End" Text="Próxima" HorizontalOptions="Center" Command="{Binding SolicitarPaginaDeAgendamentoComando}"/>
+    </StackLayout>
+</ContentPage>

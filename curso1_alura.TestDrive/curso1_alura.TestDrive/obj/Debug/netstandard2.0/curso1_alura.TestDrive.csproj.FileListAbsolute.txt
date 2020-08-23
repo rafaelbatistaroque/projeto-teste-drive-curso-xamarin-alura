@@ -1,0 +1,16 @@
+C:\DEV\curso-xamarin-2020\curso1_alura\curso1_alura.TestDrive\curso1_alura.TestDrive\bin\Debug\netstandard2.0\curso1_alura.TestDrive.deps.json
+C:\DEV\curso-xamarin-2020\curso1_alura\curso1_alura.TestDrive\curso1_alura.TestDrive\bin\Debug\netstandard2.0\curso1_alura.TestDrive.dll
+C:\DEV\curso-xamarin-2020\curso1_alura\curso1_alura.TestDrive\curso1_alura.TestDrive\bin\Debug\netstandard2.0\ref\curso1_alura.TestDrive.dll
+C:\DEV\curso-xamarin-2020\curso1_alura\curso1_alura.TestDrive\curso1_alura.TestDrive\bin\Debug\netstandard2.0\curso1_alura.TestDrive.pdb
+C:\DEV\curso-xamarin-2020\curso1_alura\curso1_alura.TestDrive\curso1_alura.TestDrive\obj\Debug\netstandard2.0\curso1_alura.TestDrive.csprojAssemblyReference.cache
+C:\DEV\curso-xamarin-2020\curso1_alura\curso1_alura.TestDrive\curso1_alura.TestDrive\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\DEV\curso-xamarin-2020\curso1_alura\curso1_alura.TestDrive\curso1_alura.TestDrive\obj\Debug\netstandard2.0\Views\AgendamentoPage.xaml.g.cs
+C:\DEV\curso-xamarin-2020\curso1_alura\curso1_alura.TestDrive\curso1_alura.TestDrive\obj\Debug\netstandard2.0\Views\DetalhePage.xaml.g.cs
+C:\DEV\curso-xamarin-2020\curso1_alura\curso1_alura.TestDrive\curso1_alura.TestDrive\obj\Debug\netstandard2.0\Views\ListagemPage.xaml.g.cs
+C:\DEV\curso-xamarin-2020\curso1_alura\curso1_alura.TestDrive\curso1_alura.TestDrive\obj\Debug\netstandard2.0\curso1_alura.TestDrive.AssemblyInfoInputs.cache
+C:\DEV\curso-xamarin-2020\curso1_alura\curso1_alura.TestDrive\curso1_alura.TestDrive\obj\Debug\netstandard2.0\curso1_alura.TestDrive.AssemblyInfo.cs
+C:\DEV\curso-xamarin-2020\curso1_alura\curso1_alura.TestDrive\curso1_alura.TestDrive\obj\Debug\netstandard2.0\curso1_alura.TestDrive.csproj.CoreCompileInputs.cache
+C:\DEV\curso-xamarin-2020\curso1_alura\curso1_alura.TestDrive\curso1_alura.TestDrive\obj\Debug\netstandard2.0\XamlC.stamp
+C:\DEV\curso-xamarin-2020\curso1_alura\curso1_alura.TestDrive\curso1_alura.TestDrive\obj\Debug\netstandard2.0\curso1_alura.TestDrive.dll
+C:\DEV\curso-xamarin-2020\curso1_alura\curso1_alura.TestDrive\curso1_alura.TestDrive\obj\Debug\netstandard2.0\ref\curso1_alura.TestDrive.dll
+C:\DEV\curso-xamarin-2020\curso1_alura\curso1_alura.TestDrive\curso1_alura.TestDrive\obj\Debug\netstandard2.0\curso1_alura.TestDrive.pdb
